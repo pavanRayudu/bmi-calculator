@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Metric from "./ContentComponents/Metric";
-import Standard from "./ContentComponents/Standard";
-import "./content.css";
+import Metric from "../CalculatorComponents/Metric";
+import Standard from "../CalculatorComponents/Standard";
+import "./Calculator.css";
 
 const Content = () => {
   const [unitType, setUnitType] = useState("");
