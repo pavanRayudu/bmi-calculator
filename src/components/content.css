@@ -1,0 +1,25 @@
+.content{
+    position: absolute;
+    background-color: white;
+    overflow: hidden;
+    top: 50px;
+    border-radius: 10px;
+}
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+}
+.buttons button{
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+

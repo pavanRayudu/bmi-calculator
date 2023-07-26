@@ -1,0 +1,63 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+} 
+.inputs input,.controls button{
+    background: none;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.input-element{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.height-inputs {
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.input-element input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    transition: all 0.2s ease;
+}
+.input-element label{
+    font-weight: bold;
+}
+form{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.controls {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.controls button{
+    cursor: pointer;
+    width: 50%;
+    height: 40px;
+    background-color: rgb(95, 23, 154);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+button:hover{
+    background-color: white;
+    border: 1px solid black;
+    color: blueviolet;
+}
+
+@media screen and (min-width:320px) and (max-width:450px) {
+    .input-element input{
+        width: 280px;
+    }
+    
+}
