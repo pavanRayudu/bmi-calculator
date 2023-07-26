@@ -11,8 +11,6 @@ const Header = () => {
 
   return (
     <>
-      
-
         <div
           className="inButton"
           style={{ display: display ? "block" : "none" }}
@@ -20,7 +18,7 @@ const Header = () => {
           <button onClick={clickHandler}>close</button>
           <ul>
             <li>
-              <Link to="/" onClick={clickHandler}>Home</Link>
+              <Link to="/bmi-calculator" onClick={clickHandler}>Home</Link>
             </li>
 
             <li>
@@ -37,7 +35,7 @@ const Header = () => {
       
 
       <div className="header">
-        <Link to="/">
+        <Link to="/bmi-calculator">
           <h1>BMI Calculator</h1>
         </Link>
 
@@ -48,7 +46,7 @@ const Header = () => {
         <div className="nav-bar">
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/bmi-calculator">Home</Link>
             </li>
 
             <li>
